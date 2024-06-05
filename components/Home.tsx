@@ -3,12 +3,12 @@ import Hero from "./Hero";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 import ProductCard from "./ProductCard";
-import products from "../src/assets/products.js";
+import products from "../assets/products.js";
 
 export default function Home() {
     return (
       <>
-        <NavBar />
+        <NavBar search={false}/>
         <Hero first="Tecnologia" second="Renovada"/>
         <main>
         <div className={styles["product-container"]} id="products">

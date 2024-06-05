@@ -6,7 +6,7 @@ import Hero from '../components/Hero';
 export default function Cart() {
     return (
         <>
-            <NavBar />
+            <NavBar search={true}/>
             <Hero first="Carrito" second="de Compras" />
             <main>
                 <article className={styles["product-cart"]}>
