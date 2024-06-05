@@ -13,16 +13,15 @@ export default function Home() {
         <main>
         <div className={styles["product-container"]} id="products">
           {
-            products.map((product) => (
+            products.map((each) => (
               <ProductCard
-                key={product.id}
-                id={product.id}
-                title={product.title}
-                description={product.description}
-                price={product.price}
-                discount={product.discount}
-                img={product.img}
-              />
+              key={each.id}
+              id={each.id}
+              title={each.title}
+              price={each.price}
+              color={each.colors[0]}
+              image={each.images[0]}
+            />
             ))
           }
         </div>

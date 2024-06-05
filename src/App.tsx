@@ -1,7 +1,3 @@
-import styles from "./App.module.css";
-import NavBar from "../components/NavBar.tsx";
-import Hero from "../components/Hero.tsx";
-import Footer from "../components/Footer.tsx";
 import Home from "../components/Home.tsx";
 import Details from "../views/Details.tsx";
 import Cart from "../views/Cart.tsx";
