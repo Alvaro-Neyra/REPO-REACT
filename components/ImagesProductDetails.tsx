@@ -10,7 +10,6 @@ interface ImagesProductDetailsProp{
 
 function ImagesProductDetails({ product }: ImagesProductDetailsProp) {
   return (
-    <>
       <section className={styles["product-images-block"]}>
         <div className={styles["product-images"]}>
           {product.images.map(
@@ -32,7 +31,6 @@ function ImagesProductDetails({ product }: ImagesProductDetailsProp) {
           alt="MacBook Pro 13'4"
         />
       </section>
-    </>
   );
 }
 export default ImagesProductDetails;

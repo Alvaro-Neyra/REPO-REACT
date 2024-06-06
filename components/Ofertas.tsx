@@ -1,5 +1,5 @@
 import styles from "./Ofertas.module.css";
-import products from "../assets/products";
+import products from "../assets/products.js";
 import ProductCard from "../components/ProductCard";
 function Ofertas() {
   const onsale = products.filter((each) => each.onsale);

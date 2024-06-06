@@ -38,7 +38,7 @@ function ProductCheckout({product} : ProductCheckoutProp) {
             <div className={styles["checkout-container"]}>
               <span className={styles["checkout-total-label"]}>Total:</span>
               <h2 id="price" className={styles["checkout-total-price"]}>
-                S/{product.price.toLocaleString() ? product.price.toLocaleString() : "0"}
+                S/{(product.price * quantity).toLocaleString()}
               </h2>
               <p className={styles["checkout-description"]}>
                 Incluye impuesto general de ventas (I.G.V), no incluye costo de envio.

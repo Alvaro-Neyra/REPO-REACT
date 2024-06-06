@@ -1,6 +1,9 @@
 /* DESCRIPTION */
 .product-description-block {
     flex-direction: column;
+    width: 25%;
+    padding: 10px;
+    margin: 10px;
   }
   .product-title {
     color: black;
@@ -36,17 +39,8 @@
   .product-description {
     margin-top: 30px;
     line-height: 20px;
-  }
-  .product-description {
     font-size: 12px;
     font-weight: 400;
     color: #383838;
-    margin-bottom: 5px;
-  }
-  .product-images-block,
-  .product-description-block,
-  .product-checkout-block {
-    width: 340px;
-    padding: 10px;
-    margin: 10px;
+    margin-bottom: 5px
   }

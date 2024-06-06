@@ -12,7 +12,6 @@ interface ProductDescriptionDetailProp{
 
 function ProductDescriptionDetail({product}: ProductDescriptionDetailProp) {
   return (
-    <>
       <div className={styles["product-description-block"]}>
         <h1 className={styles["product-title"]}>{product.title}</h1>
         <form className={styles["product-selector"]}>
@@ -38,7 +37,6 @@ function ProductDescriptionDetail({product}: ProductDescriptionDetailProp) {
           <p>{product.description}</p>
         </div>
       </div>
-    </>
   );
 }
 export default ProductDescriptionDetail;

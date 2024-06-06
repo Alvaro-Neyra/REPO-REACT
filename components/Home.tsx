@@ -8,7 +8,7 @@ import products from "../assets/products.js";
 export default function Home() {
     return (
       <>
-        <NavBar search={false}/>
+        <NavBar search={true}/>
         <Hero first="Tecnologia" second="Renovada"/>
         <main>
         <div className={styles["product-container"]} id="products">
